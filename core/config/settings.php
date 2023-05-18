@@ -13,7 +13,7 @@ define('LANG'           , 'es');
 //version sitio
 define('SITEVERSION'    , '1.0');
 //ruta base del proyecto
-define('BASEPATH'       , IS_LOCAL ? '/mi-framework/': 'http://mi.plantilla.mvc/');
+define('BASEPATH'       , IS_LOCAL ? '/mi-framework/': 'http://mi.plantilla.mvc');
 
 //sal del sistema
 //esto es un string o token random y se utiliza para agregar una capa de seguridad a ej, los password
@@ -23,7 +23,7 @@ define('PORT'           , '80');
 //define('PORT'           , '8848'); puerto prepros
 //define('PORT'           , '80'); puerto php myadmin
 //URL del sitio
-define('URL'            , IS_LOCAL ? 'http://127.0.0.1:'.PORT.BASEPATH : 'http://mi.plantilla.mvc/');
+define('URL'            , IS_LOCAL ? 'http://127.0.0.1:'.PORT.BASEPATH : 'http://mi.plantilla.mvc');
 
 //defino separador de escritorio
 define('DS'             , DIRECTORY_SEPARATOR);
