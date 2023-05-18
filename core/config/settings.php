@@ -23,7 +23,7 @@ define('PORT'           , '80');
 //define('PORT'           , '8848'); puerto prepros
 //define('PORT'           , '80'); puerto php myadmin
 //URL del sitio
-define('URL'            , IS_LOCAL ? 'http://127.0.0.1:'.PORT.BASEPATH : 'http://mi.plantilla.mvc');
+define('URL'            , IS_LOCAL ? 'http://127.0.0.1:'.PORT.BASEPATH : 'https://leandroemanuel2023.github.io/plantilla-mvc2023/');
 
 //defino separador de escritorio
 define('DS'             , DIRECTORY_SEPARATOR);
