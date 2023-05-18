@@ -13,7 +13,7 @@ define('LANG'           , 'es');
 //version sitio
 define('SITEVERSION'    , '1.0');
 //ruta base del proyecto
-define('BASEPATH'       , IS_LOCAL ? '/mi-framework/': '/plantilla-mvc2023/');
+define('BASEPATH'       , IS_LOCAL ? '/mi-framework/': 'https://leandroemanuel2023.github.io/plantilla-mvc2023/');
 
 //sal del sistema
 //esto es un string o token random y se utiliza para agregar una capa de seguridad a ej, los password
