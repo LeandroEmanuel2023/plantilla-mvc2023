@@ -13,7 +13,7 @@ define('LANG'           , 'es');
 //version sitio
 define('SITEVERSION'    , '1.0');
 //ruta base del proyecto
-define('BASEPATH'       , IS_LOCAL ? '/mi-framework/': 'https://leandroemanuel2023.github.io/plantilla-mvc2023/');
+define('BASEPATH'       , IS_LOCAL ? '/mi-framework/': 'https://leandroemanuel2023.github.io/');
 
 //sal del sistema
 //esto es un string o token random y se utiliza para agregar una capa de seguridad a ej, los password
@@ -23,7 +23,7 @@ define('PORT'           , '80');
 //define('PORT'           , '8848'); puerto prepros
 //define('PORT'           , '80'); puerto php myadmin
 //URL del sitio
-define('URL'            , IS_LOCAL ? 'http://127.0.0.1:'.PORT.BASEPATH : 'https://leandroemanuel2023.github.io/plantilla-mvc2023/');
+define('URL'            , IS_LOCAL ? 'http://127.0.0.1:'.PORT.BASEPATH : 'plantilla-mvc2023/');
 
 //defino separador de escritorio
 define('DS'             , DIRECTORY_SEPARATOR);
