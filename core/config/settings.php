@@ -6,15 +6,16 @@ define('REMOTE_ADR', $_SERVER['REMOTE_ADDR']);
 //constante para saber si trabajamos de forma local o remota, o sea si estamos desarrollando o en ambiente de produccion
 define('IS_LOCAL'       , in_array($_SERVER['REMOTE_ADDR'], ['127.0.0.1', '::1']));
 echo $_SERVER['REMOTE_ADDR'];
+
 //configuracion para definir el horario que estamos trabajando
-date_default_timezone_set('America/Argentina/Buenos_Aires');
+//date_default_timezone_set('America/Argentina/Buenos_Aires');
 
 //lenguaje
 define('LANG'           , 'es');
 //version sitio
 define('SITEVERSION'    , '1.0');
 //ruta base del proyecto
-define('BASEPATH'       , IS_LOCAL ? '/mi-framework/': 'https://leandroemanuel2023.github.io/');
+define('BASEPATH'       , IS_LOCAL ? '/mi-framework/': '/github/workspace/docs/');
 
 //sal del sistema
 //esto es un string o token random y se utiliza para agregar una capa de seguridad a ej, los password
