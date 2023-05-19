@@ -5,7 +5,7 @@
 define('REMOTE_ADR', $_SERVER['REMOTE_ADDR']);
 //constante para saber si trabajamos de forma local o remota, o sea si estamos desarrollando o en ambiente de produccion
 define('IS_LOCAL'       , in_array($_SERVER['REMOTE_ADDR'], ['127.0.0.1', '::1']));
-var_dump($_SERVER['REMOTE_ADDR']);
+echo $_SERVER['REMOTE_ADDR'];
 //configuracion para definir el horario que estamos trabajando
 date_default_timezone_set('America/Argentina/Buenos_Aires');
 
