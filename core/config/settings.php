@@ -21,7 +21,7 @@ define('BASEPATH'       , IS_LOCAL ? '/mi-framework/': '/github/workspace/docs/'
 //esto es un string o token random y se utiliza para agregar una capa de seguridad a ej, los password
 define('AUTH_SALT'      , 'mi-framework\m/');
 //puerto del sitio
-define('PORT'           , '');
+define('PORT'           , '443');
 //define('PORT'           , '8848'); puerto prepros
 //define('PORT'           , '80'); puerto php myadmin
 //URL del sitio
